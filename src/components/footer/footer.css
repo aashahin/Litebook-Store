@@ -1,0 +1,35 @@
+footer {
+  width: 100%;
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.social-media i {
+  font-size: 25px;
+  padding: 0 5px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+@media (max-width: 720px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .links {
+    padding: 10px 0;
+  }
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+.copy-right a {
+  color: #7d4817;
+  text-decoration: none;
+}
+
+.links a {
+  padding: 5px;
+}

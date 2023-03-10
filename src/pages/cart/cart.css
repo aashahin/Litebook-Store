@@ -1,0 +1,118 @@
+.cart-title {
+  padding: 10px 0px;
+  font-size: 32px;
+  border-bottom: 2px solid;
+  width: max-content;
+  margin: 10px 15px;
+}
+.cart-wrapper {
+  display: flex;
+  margin-bottom: 10%;
+}
+.cart-items{
+  width: 50%;
+  margin-right: auto;
+}
+.cart-item {
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: 2px solid;
+  align-items: center;
+}
+.cart-item img {
+  width: 170px;
+  object-fit: contain;
+}
+.cart-item-info{
+  width: 50%;
+  margin-right: auto;
+  padding: 10px;
+  display: block;
+}
+
+.cart-item-title, .cart-item-price {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.cart-product-title{
+  color: #96661d;
+}
+.cart-item-quantity{
+  display: flex;
+  align-items: center;
+}
+.cart-item-quantity button{
+  background: none;
+  border: none;
+}
+.cart-item-quantity span{
+  font-size: 18px;
+  font-weight: bold;
+}
+.cart-item-quantity i {
+  font-size: 40px;
+  cursor: pointer;
+}
+.cart-summary{
+  width: 30%;
+  height: max-content;
+  border: 1px solid var(--primary-color);
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.cart-summary-title{
+  font-size: 24px;
+  padding: 10px;
+}
+.cart-summary-details p{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--primary-color);
+  padding: 10px;
+  font-size: 21px;
+}
+.cart-summary-order{
+  text-align: center;
+  padding-top: 30px;
+}
+.cart-summary-order button{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.cart-summary-order button:hover{
+  background-color: #96661d;
+  color: white;
+}
+.cart-oops{
+  text-align: center;
+  padding: 10%;
+  font-size: 24px;
+}
+/* Responsive */
+@media (max-width: 910px){
+  .cart-summary{
+    border: 1px solid var(--primary-color);
+    padding: 45px;
+    width: 100%;
+  }
+  .cart-wrapper{
+    flex-direction: column;
+  }
+  .cart-items{
+    width: 100%;
+  }
+}
+@media (max-width: 990px){
+  .cart-item-title, .cart-item-price {
+    font-size: 18px;
+  }
+}

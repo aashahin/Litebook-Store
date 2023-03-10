@@ -1,0 +1,27 @@
+.services{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+.service{
+    text-align: center;
+}
+.service i{
+    width: 100%;
+}
+.service b{
+    font-size: 20px;
+    font-weight: 300;
+}
+.las{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 70px;
+}
+
+/*Responsive*/
+@media (max-width: 720px){
+    .services{
+        flex-direction: column;
+    }
+}

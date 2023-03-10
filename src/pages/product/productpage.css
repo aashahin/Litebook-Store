@@ -1,0 +1,109 @@
+.book-container{
+    height: 80vh;
+}
+.book-flex{
+    display: flex;
+    justify-content: center;
+}
+.title-product-page{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 18px;
+    margin-top: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+}
+.book-flex img{
+    margin-top: -15px;
+    width: 50%;
+    height: 50%;
+}
+.book-flex h1{
+    border-bottom: 1px solid;
+    padding: 10px 0;
+    margin: 15px 0;
+}
+.book-flex p{
+    font-size: 22px;
+    font-family: 'Hind Siliguri';
+}
+.book-flex .price span{
+    color: #96661d;
+}
+.book-flex .cart{
+    margin: 20px 0;
+}
+.book-flex .cart input{
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.book-flex .cart button{
+    cursor: pointer;
+    padding: 12px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+.book-flex .cart button i{
+    font-size: 30px;
+    color: white;
+}
+.book-flex .details .line{
+    border: 1px solid;
+    margin-top: 50px;
+}
+.book-flex .price{
+    padding-top: 15px;
+}
+.book-flex .table-details table{
+    width: 100%;
+}
+.book-flex .table-details table{
+    border: 1px solid;
+}
+.book-flex .table-details table td{
+    padding: 15px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+.book-flex .table-details .col-one{
+    width: 20%;
+}
+/*Responsive*/
+@media (max-width: 720px) {
+    .book-container{
+        height: 100%;
+    }
+    .book-flex{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .book-flex img{
+        margin: auto;
+    }
+    .book-flex .table-details table{
+        margin-bottom: 10%;
+    }
+}
+@media (max-width: 990px){
+    .book-flex h1{
+        border-bottom: 1px solid;
+        padding: 8px 0;
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    .book-flex p{
+        font-size: 18px;
+        font-family: 'Hind Siliguri';
+    }
+}
